@@ -9,4 +9,6 @@ DevSecOps Practice with Multi-Tier-Application With-Database
 
 2.	Best practices from security point of view , Nothing is expose such as Credentials, Passwords, Any kind of API details.
 
-4. Application Pod is connected to Database by sending Request to service first
+4.  Git checkout creates a Local copy of source code in any CICD Tools (Jenkins,Github Actions)
+   
+6.  Compile stage build the code, it also rectifies if any syntax error for source code (Like missing of "," ";")
