@@ -3,7 +3,7 @@ DevSecOps Practice with Multi-Tier-Application With-Database
 
 # Architecture & Flow
 
-1.	Below is the Architecure  | EKS CLUSTER
+1.	Below is the Architecure & Flow.
 
 2.	Every stage of Pipeline we can use security to ensure that there is no bug, vulnerabilities within the application.
 
