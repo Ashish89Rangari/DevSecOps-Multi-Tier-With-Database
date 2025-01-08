@@ -17,7 +17,8 @@ DevSecOps Practice with Multi-Tier-Application With-Database
    For this we have to write test cases, if the code is not working as expected then code must have bugs or issues in source code.
 
 8. SonarQube (3rdLevel security):  It will perform 2 task
-   a) Code Quality Check: It will  check the Quality of code, such as code can have Bugs, Vulnerabilities, Code smells
-   b) Code Coverage
+   a) Code Quality Check: It will  check the Quality of code, such as code can have Bugs, Vulnerabilities, Code smells. If this problems are less then code is good. 
+   b) Code Coverage: Code coverage is nothing but if we have 100 lines of code and we have written 10 Test cases, This test cases should cover or test the 100 lines codes functionality.
+                     The percentage of code that is tested and covered by running the test cases that is called Code coverage 80% standard.
    
 10. 
