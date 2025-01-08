@@ -13,4 +13,5 @@ DevSecOps Practice with Multi-Tier-Application With-Database
    
 6. COMPILE (1 st Level security) Compile stage build the code, it also rectifies if any syntax error for source code (Like missing of "," ";")
 
-7. UNIT TEST CASES (2nd Level security) test cases stage is used to find application source code is working the same way as supposed to
+7. UNIT TEST CASES (2nd Level security) test cases stage is used to find application source code is working the same way as supposed to (Ex: a + b = c)
+   For this we have to write test cases, if the code is not working as expected then code must have bugs or issues in source code
