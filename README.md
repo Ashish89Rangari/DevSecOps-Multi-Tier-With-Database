@@ -1,6 +1,9 @@
 # DevSecOps-Multi-Tier-With-Database
 DevSecOps Practice with Multi-Tier-Application With-Database
 
+![image](https://github.com/user-attachments/assets/afeb7634-dfe3-4b5b-bd70-2965e0523dba)
+
+
 # Architecture & Flow
 
 1.	Below is the Architecure & Flow.
