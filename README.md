@@ -17,7 +17,7 @@ DevSecOps Practice with Multi-Tier-Application With-Database
    For this we have to write test cases, if the code is not working as expected then code must have bugs or issues in source code.
 
 8. SonarQube (3rdLevel security):  It will perform 2 task
-   a) Code Quality Check
+   a) Code Quality Check: It will  check the Quality of code, such as code can have Bugs, Vulnerabilities, Code smells
    b) Code Coverage
    
 10. 
