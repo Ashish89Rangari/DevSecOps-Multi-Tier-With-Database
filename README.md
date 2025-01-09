@@ -35,5 +35,7 @@ DevSecOps Practice with Multi-Tier-Application With-Database
    c) Trivy will also scan (.jar file) depandancy check. JAVA(POM.xml),NODEJS(package.json),Python(requirements.txt).
 
 10. Build Application: Build application to get JAVA(.jar), WEB(.war),NODEJS(zip) artifact files.
-11. 
+   
+13. Publish Artifacts file: Previously scanned artifact file we can publish on Nexus or Jfrog.
+13. 
     
