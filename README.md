@@ -33,5 +33,7 @@ DevSecOps Practice with Multi-Tier-Application With-Database
    b) Trivy does File system scan(FS scan) such as configuration files like Kubernetes manifest YAML file, terraform files.
    It shows vulnerabilities and error in this files. If you have expose password or token credentials,Trivy will let you know that.
    c) Trivy will also scan (.jar file) depandancy check. JAVA(POM.xml),NODEJS(package.json),Python(requirements.txt).
-10. ss
+
+10. Build Application: Build application to get JAVA(.jar), WEB(.war),NODEJS(zip) artifact files.
+11. 
     
