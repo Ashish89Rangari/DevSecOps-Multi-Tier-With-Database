@@ -24,4 +24,8 @@ DevSecOps Practice with Multi-Tier-Application With-Database
    b) Code Coverage: Code coverage is nothing but if we have 100 lines of code and we have written 10 Test cases, This test cases should cover or test the 100 lines codes functionality.
                      The percentage of code that is tested and covered by running the test cases that is called Code coverage 80% standard.
    
-10. 
+9. Trivy (4th Level security): Trivy used to scan file system ,artifacts,configuartion files.jar files, Docker Image scan.
+   Trivy does File system scan(FS scan) such as configuration files like Kubernetes manifest YAML file, terraform files.
+   It shows vulnerabilities and error in this files
+11. ss
+    
