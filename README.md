@@ -29,9 +29,9 @@ DevSecOps Practice with Multi-Tier-Application With-Database
       This test cases should cover or test the 100 lines codes functionality.
       he percentage of code that is tested and covered by running the test cases that is called Code coverage 80% standard.
    
-8. Trivy (4th Level security): Trivy used to scan file system ,artifacts,configuartion files.jar files, Docker Image scan.
-   Trivy does File system scan(FS scan) such as configuration files like Kubernetes manifest YAML file, terraform files.
-   It shows vulnerabilities and error in this files. If you have expose password or token credentials,
-   Trivy will let you know that.
+8. Trivy (4th Level security): a) Trivy used to scan file system ,artifacts,configuartion files.jar files, Docker Image scan.
+   b) Trivy does File system scan(FS scan) such as configuration files like Kubernetes manifest YAML file, terraform files.
+   It shows vulnerabilities and error in this files. If you have expose password or token credentials,Trivy will let you know that.
+   c) Trivy will also scan (.jar file) depandancy check. JAVA(POM.xml),NODEJS(package.json),Python(requirements.txt).
 10. ss
     
