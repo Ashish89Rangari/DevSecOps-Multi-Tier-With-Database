@@ -31,6 +31,7 @@ DevSecOps Practice with Multi-Tier-Application With-Database
    
 8. Trivy (4th Level security): Trivy used to scan file system ,artifacts,configuartion files.jar files, Docker Image scan.
    Trivy does File system scan(FS scan) such as configuration files like Kubernetes manifest YAML file, terraform files.
-   It shows vulnerabilities and error in this files
-9. ss
+   It shows vulnerabilities and error in this files. If you have expose password or token credentials,
+   Trivy will let you know that.
+10. ss
     
