@@ -35,6 +35,8 @@ DevSecOps Practice with Multi-Tier-Application With-Database
    It shows vulnerabilities and error in this files. If you have expose password or token credentials,Trivy will let you know that.
    c) Trivy will also scan (.jar file) depandancy check. JAVA(POM.xml),NODEJS(package.json),Python(requirements.txt).
 
+   
+
 10. Build Application: Build application to get JAVA(.jar), WEB(.war),NODEJS(zip) artifact files.
    
 13. Publish Artifacts file: Previously scanned artifact file we can publish on Nexus or Jfrog.
