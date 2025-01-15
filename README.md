@@ -41,13 +41,15 @@ DevSecOps Practice with Multi-Tier-Application With-Database
    
 10. Publish Artifacts file: Previously scanned artifact file we can publish on Nexus or Jfrog.
 
-11. Docker Image Build: After Building Docker image , before pushing Docker image to Docker Hub, we will scan Docker image by "Trivy Image Scan".
+11. Docker Image Build/Push: After Building Docker image , before pushing Docker image to Docker Hub, we will scan Docker image by "Trivy Image Scan".
     So It scans, Base Image(OS), Artifacts like (.jar/.war) and configuration files and dependancy.
     
-15. Deploy to Kubernetes Cluster: Before Deploying to K8S cluster, The manifest file can be scan by Trivy, To setup K8S cluster we have to setup Credentials.
+12. Deploy to Kubernetes Cluster: Before Deploying to K8S cluster, The manifest file can be scan by Trivy, To setup K8S cluster we have to setup Credentials.
     We will not directly deploy with root credentials. We will create a "Service Account" and give minimum permission to deploy application.
     For that we will create a Credential, This Credentials can be used inside Jenkins to perform the deployment. This ensure that we have performed deployment
     Securely.
 
-16. PenTesting(Pentration Testing):
+13. PenTesting(Penetration Testing): When application is Deployed, We manaually attack that website with various tools to find weak bug, vulnerabilities
+    so that we can avoid it from hacking.
+15. 
     
