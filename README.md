@@ -40,5 +40,8 @@ DevSecOps Practice with Multi-Tier-Application With-Database
 10. Build Application: Build application to get JAVA(.jar), WEB(.war),NODEJS(zip) artifact files.
    
 13. Publish Artifacts file: Previously scanned artifact file we can publish on Nexus or Jfrog.
-13. 
+
+14. Docker Image Build: After Building Docker image , before pushing Docker image to Docker Hub, we will scan Docker image by "Trivy Image Scan".
+    So It scans, Base Image(OS), Artifacts like (.jar/.war) and configuration files and dependancy.
+15. 
     
